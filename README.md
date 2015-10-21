@@ -1,12 +1,14 @@
 # Ayy lmao
 Ayy lmao is essentially a clone of brainfuck, but with the number of commands reduced from 8 characters down to my 5 favorite letters in the english alphabet `(A,l,m,a,o)`.
 
-## Why?
+You should check out some of the provided sample `.lmao` files. You should especially try to pronounce them out loud.
+
+## Umm...
 Ayy lmao is represented by an array of N cells initialized 
 to zero. Each cell is represented by M bits, and any of the
 5 operations shown are allowed: A,l,m,a,o.
 
-## Operations
+## Uhh...
 A - (operand) flips the operand to work on based on the value
     of the switch
   0: operate on pointer
@@ -31,7 +33,7 @@ a - (operation) start and end of a while loop
 o - The boolean switch for deciding which operation (l,m,a) 
     should be done on the operand (A).
 
-## What?
+## ...
 An Ayy lmao program is initialized with all cells default
 to zero. The program counter automatically increments every 
 iteration. The switch and operand are set to zero by default.
